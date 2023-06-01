@@ -3,7 +3,7 @@ import { ListGroup } from "react-bootstrap";
 import EmpleadoRow from "./EmpleadoRow";
 
 const EmpleadoList = () => {
-    const empleados = [
+    let empleados = [
         {
           id: 1,
           fullName: "Laya Dueñas",
