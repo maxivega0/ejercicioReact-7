@@ -7,8 +7,8 @@ function App() {
 
   return (
     <>
-      <Container>
-        <h1 className="text-center">Lista de empleados</h1>
+      <Container className='text-center'>
+        <h1>Lista de empleados</h1>
         <EmpleadoList></EmpleadoList>
       </Container>
 
