@@ -10,10 +10,13 @@ const EmpleadoRow = ({ empleados }) => {
     <>
       {empleados.map((empleado) => {
         return (
-          <ListGroup.Item className="d-flex justify-content-center" key={empleado.id}>
+          <ListGroup.Item
+            className="d-flex justify-content-center"
+            key={empleado.id}
+          >
             <Card style={{ width: "50rem" }} className="d-flex flex-row">
               <Card.Body>
-                <EmpleadoAvatar/>
+                <EmpleadoAvatar empleado={empleado.pic} />
               </Card.Body>
               <Card.Body>
                 <Card.Title>{empleado.fullName}</Card.Title>
