@@ -9,6 +9,7 @@ const EmpleadoAvatar = ({imagen}) => {
       alt={imagen}
     //   No tuve tiempo de buscar 10 imagenes distintas, por eso solo cambie la tabulacion
     />
+    
   );
 };
 
